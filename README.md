@@ -1,2 +1,2 @@
-This application aims to showcase flask functionality through a simple mathematical calculator. you can enter the numbers you want to do the computation on in the fields and select the operation then get your result. This video link shows how the application works: -
+This application aims to showcase flask functionality through a simple mathematical calculator. you can enter the numbers you want to do the computation on in the fields and select the operation then get your result. Here is a screenshot of the application and a video link showing how the application works: -
 ![Screenshot](https://raw.githubusercontent.com/Rashaddd003/Calculator/project/images/app_image.PNG)
