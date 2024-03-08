@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class = 'whole'>
+    <form action = '/calculate' method = 'post'>
+        <div class = 'inputs'>
+            <input type = 'number' name = 'num1' placeholder = 'Enter first number'></input>
+            <input type = 'number' name = 'num2' placeholder = 'Enter second number'></input>
+        </div>
+        <div class= 'radios'>
+            <label class="radio">
+                <input type="radio" name="operation" value="add" checked> +
+            </label>
+            <label class="radio">
+                <input type="radio" name="operation" value="Subtract"> -
+            </label>
+            <label class="radio">
+                <input type="radio" name="operation" value="Multiply"> X
+            </label>
+            <label class="radio">
+                <input type="radio" name="operation" value="Divide"> /
+            </label>
+        </div>
+        <div>
+            <button type="submit">=</button>
+        </div>
+    </form>
+    <p>{{result}}</p>
+  </div>
+{% endblock %}
